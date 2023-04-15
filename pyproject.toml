@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gazu-transcoder"
+version = "0.1.0"
+description = ""
+authors = ["Lambin Simon <slambin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gazu_transcoder"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gazu = "^0.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pyreadline3 = "^3.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
